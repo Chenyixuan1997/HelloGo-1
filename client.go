@@ -6,6 +6,8 @@ import (
 	"net"
 	"os"
 )
+//woxianggua...hahaaah
+//hhhhhh
 
 //IM功能：Instant Messaging即时通讯
 
