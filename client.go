@@ -6,6 +6,7 @@ import (
 	"net"
 	"os"
 )
+
 //woxianggua...hahaaah
 //hhhhhh
 
@@ -59,7 +60,7 @@ func SendMsg(conn net.Conn) {
 		//
 		if len(input) > 0 {
 			msg := username + " say:" + input
-			_, err := conn.Write([]byte("msg"))
+			_, err := conn.Write([]byte(msg))
 			if err != nil {
 				conn.Close()
 				break
